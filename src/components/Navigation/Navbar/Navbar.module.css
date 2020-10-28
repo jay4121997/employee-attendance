@@ -1,0 +1,31 @@
+.Navbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content:flex-end;
+  /* vertical-align: baseline; */
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+
+@media (max-width: 500px) {
+  .show_on_small {
+    display: block;
+  }
+  .hide_small {
+    display: none;
+  }
+  .Navbar{
+    /* padding: 0 5px; */
+    max-width: 100%;
+    justify-content: space-evenly;
+  }
+}

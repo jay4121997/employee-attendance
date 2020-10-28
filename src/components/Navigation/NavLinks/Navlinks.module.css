@@ -1,0 +1,18 @@
+.Links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .Links {
+    /* flex-flow: row; */
+    text-align: center;
+  }
+}
